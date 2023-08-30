@@ -1,0 +1,125 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html, body {
+    min-height: 100vh;
+  }
+  
+  body {
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  input, button, textarea, select {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  .sr-only {
+    position: absolute;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    padding: 0;
+    margin: -0.0625rem;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+
+  :root {
+  
+    /* primary colors */
+    --yellow: hsl(48, 96%, 53%);
+    --blue: hsl(217, 91%, 60%);
+    --grey: hsl(240, 5%, 84%);
+
+    /* neutral colors */
+    --black: hsl(0, 0%, 4%);
+    --soft_black: hsla(0, 0%, 0%, 0.788);
+    --white: hsl(0, 0%, 100%);
+
+    /* font-weights */
+    --light: 300;
+    --regular: 400;
+    --medium: 500;
+  
+  }
+
+header {
+}
+
+.header__hamburger {
+}
+.hamburger {
+}
+.hamburger__toggle {
+}
+.hamburger__icon {
+}
+.user__form {
+}
+.form {
+}
+.form__label {
+}
+.sr-only {
+}
+.form__input {
+}
+.form__btn {
+}
+.form__icon {
+}
+.header__user {
+}
+.user {
+}
+.user__notification {
+}
+.user__profile {
+}
+.user__image {
+}
+.user__name {
+}
